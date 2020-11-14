@@ -1,3 +1,5 @@
-from spaceonfire/nginx-php-fpm
+FROM spaceonfire/nginx-php-fpm
+COPY app/ /var/www/html/
+
 
 
